@@ -83,15 +83,31 @@
         android:linksClickable="true" />
 
     <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
+        android:id="@+id/logIn"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/tv4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="#A5FAC1"
         android:clickable="true"
         android:text="LOGIN" />
+
+    <Button
+        android:id="@+id/googlBt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/logIn"
+        app:layout_constraintStart_toStartOf="@id/logIn"
+        app:layout_constraintEnd_toEndOf="@id/logIn"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:backgroundTint="#F44336"
+        android:text="Signin with Google"
+        android:textAllCaps="false"/>
 
 
 

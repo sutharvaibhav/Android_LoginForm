@@ -8,7 +8,7 @@ import android.widget.EditText;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class forgetActivity extends AppCompatActivity
+public class ForgetActivity extends AppCompatActivity
 {
     EditText editText1;
     EditText editText2;
